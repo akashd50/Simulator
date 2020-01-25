@@ -15,4 +15,12 @@ public class AppServices {
     public static int getScreenWidth() {
         return screenWidth;
     }
+    public static float radians(float degrees){
+        return (float)(degrees* Math.PI/180);
+    }
+    public static float random(float l, float r){
+        return (float)(Math.random()*(r-l) + l);
+    }
+
+
 }
